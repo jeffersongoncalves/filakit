@@ -2,6 +2,8 @@
 
 namespace App\Models;
 
+use Filament\Models\Contracts\FilamentUser;
+use Filament\Panel;
 use Illuminate\Auth\Authenticatable;
 use Illuminate\Auth\MustVerifyEmail;
 use Illuminate\Auth\Passwords\CanResetPassword;
@@ -14,7 +16,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Foundation\Auth\Access\Authorizable;
 use Illuminate\Notifications\Notifiable;
 
-class User extends Model implements AuthenticatableContract, AuthorizableContract, CanResetPasswordContract, MustVerifyEmailContract
+class User extends Model implements AuthenticatableContract, AuthorizableContract, CanResetPasswordContract, MustVerifyEmailContract, FilamentUser
 {
     /** @use HasFactory<\Database\Factories\UserFactory> */
     use HasFactory;
@@ -35,6 +37,14 @@ class User extends Model implements AuthenticatableContract, AuthorizableContrac
         'password',
         'remember_token',
     ];
+
+    /**
+     * @throws \Exception
+     */
+    public function canAccessPanel(Panel $panel): bool
+    {
+        return $panel->getId() === 'app';
+    }
 
     protected function casts(): array
     {
