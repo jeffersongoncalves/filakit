@@ -155,6 +155,6 @@ class PhosphorIconReplacementServiceProvider extends ServiceProvider
         /** @var \App\Enums\PhosphorIconWeightsEnum $style */
         $style = config('themes.icon_style');
 
-        FilamentIcon::register($iconMap->mapWithKeys(fn($icon, $key) => [$key => empty($style->value) ? $icon : $icon . '-' . $style->value])->toArray());
+        FilamentIcon::register($iconMap->mapWithKeys(fn ($icon, $key) => [$key => empty($style->value) ? $icon : $icon.'-'.$style->value])->toArray());
     }
 }
