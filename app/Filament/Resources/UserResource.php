@@ -56,7 +56,7 @@ class UserResource extends Resource
 
     public static function getNavigationBadge(): ?string
     {
-        return (string)Cache::rememberForever('users_count', fn() => User::query()->count());
+        return (string) Cache::rememberForever('users_count', fn () => User::query()->count());
     }
 
     public static function form(Form $form): Form
@@ -80,8 +80,8 @@ class UserResource extends Resource
                             ->email(),
                         Forms\Components\TextInput::make('password')
                             ->password()
-                            ->required(fn(string $context): bool => $context === 'create')
-                            ->dehydrated(fn($state) => filled($state))
+                            ->required(fn (string $context): bool => $context === 'create')
+                            ->dehydrated(fn ($state) => filled($state))
                             ->minLength(6),
                     ]),
             ]);

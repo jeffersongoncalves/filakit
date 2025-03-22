@@ -55,7 +55,7 @@ class AdminResource extends Resource
 
     public static function getNavigationBadge(): ?string
     {
-        return (string)Cache::rememberForever('admins_count', fn() => Admin::query()->count());
+        return (string) Cache::rememberForever('admins_count', fn () => Admin::query()->count());
     }
 
     public static function form(Form $form): Form
@@ -79,8 +79,8 @@ class AdminResource extends Resource
                             ->email(),
                         Forms\Components\TextInput::make('password')
                             ->password()
-                            ->required(fn(string $context): bool => $context === 'create')
-                            ->dehydrated(fn($state) => filled($state))
+                            ->required(fn (string $context): bool => $context === 'create')
+                            ->dehydrated(fn ($state) => filled($state))
                             ->minLength(6),
                     ]),
             ]);
