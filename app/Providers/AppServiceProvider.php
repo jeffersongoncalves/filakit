@@ -17,9 +17,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        if (config('filakit.phosphoricon_enabled', false)) {
-            $this->app->register(PhosphorIconReplacementServiceProvider::class);
-        }
         if (config('filakit.admin_panel_enabled', false)) {
             $this->app->register(AdminPanelProvider::class);
         }
