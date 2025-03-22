@@ -25,7 +25,7 @@ web applications with a ready-to-use multi-panel structure.
 
 - PHP 8.2 or higher
 - Composer
-- Node.js and NPM
+- Node.js and PNPM
 
 ## Installation
 
@@ -36,7 +36,7 @@ laravel new my-app --using=jeffersongoncalves/filakit
 
 ``` bash
 # Install JavaScript dependencies
-npm install
+pnpm install
 ```
 
 ``` bash
@@ -70,7 +70,7 @@ composer dev
 # Or run each component separately
 php artisan serve
 php artisan queue:listen --tries=1
-npm run dev
+pnpm run dev
 ```
 
 ## Customization
