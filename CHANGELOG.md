@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## 3.2.0 - 2025-04-25
+
+### What's Changed
+
+* Laravel Sail support by @josenetoz in https://github.com/jeffersongoncalves/filakit/pull/9
+
+### New Contributors
+
+* @josenetoz made their first contribution in https://github.com/jeffersongoncalves/filakit/pull/9
+
+**Full Changelog**: https://github.com/jeffersongoncalves/filakit/compare/3.1.9...3.2.0
+
 ## 3.1.9 - 2025-04-25
 
 ### What's Changed
