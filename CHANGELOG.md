@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## 3.2.1 - 2025-05-05
+
+### What's Changed
+
+* build(deps-dev): bump the actions-deps group with 2 updates by @dependabot in https://github.com/jeffersongoncalves/filakit/pull/12
+* build(deps): bump the actions-deps group with 4 updates by @dependabot in https://github.com/jeffersongoncalves/filakit/pull/13
+* build(deps-dev): bump vite from 6.3.3 to 6.3.4 in the npm_and_yarn group by @dependabot in https://github.com/jeffersongoncalves/filakit/pull/14
+
+**Full Changelog**: https://github.com/jeffersongoncalves/filakit/compare/3.2.0...3.2.1
+
 ## 3.2.0 - 2025-04-25
 
 ### What's Changed
