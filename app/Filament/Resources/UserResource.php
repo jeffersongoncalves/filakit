@@ -12,7 +12,6 @@ use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
 use Illuminate\Support\Facades\Cache;
-use STS\FilamentImpersonate\Tables\Actions\Impersonate;
 
 class UserResource extends Resource
 {
@@ -144,9 +143,6 @@ class UserResource extends Resource
                 //
             ])
             ->actions([
-                Impersonate::make('impersonate')
-                    ->guard('web')
-                    ->redirectTo(route('filament.app.pages.dashboard')),
                 Tables\Actions\ViewAction::make(),
                 Tables\Actions\EditAction::make(),
                 Tables\Actions\DeleteAction::make(),

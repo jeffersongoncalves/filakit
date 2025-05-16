@@ -11,7 +11,6 @@ use Filament\Support\Enums\MaxWidth;
 use Filament\Tables;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Validation\ValidationException;
-use STS\FilamentImpersonate;
 
 class FilamentServiceProvider extends ServiceProvider
 {
@@ -58,6 +57,10 @@ class FilamentServiceProvider extends ServiceProvider
 
         Actions\DeleteAction::configureUsing(function (Actions\DeleteAction $action) {
             return $action->icon('heroicon-o-trash');
+        });
+
+        Actions\ViewAction::configureUsing(function (Actions\ViewAction $action) {
+            return $action->icon('heroicon-o-eye');
         });
     }
 
@@ -209,10 +212,6 @@ class FilamentServiceProvider extends ServiceProvider
 
         Tables\Filters\SelectFilter::configureUsing(function (Tables\Filters\SelectFilter $filter) {
             return $filter->native(false);
-        });
-
-        FilamentImpersonate\Tables\Actions\Impersonate::configureUsing(function (FilamentImpersonate\Tables\Actions\Impersonate $action) {
-            return $action->button();
         });
     }
 }
