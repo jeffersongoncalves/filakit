@@ -30,6 +30,7 @@ class LaravelInstaller
         $this->generateAppKey();
         $this->setupDatabase();
         $this->runMigrations();
+        $this->runSeeders();
         $this->installNodeDependencies();
 
         // Configure Herd if used
@@ -94,6 +95,15 @@ class LaravelInstaller
     private function runMigrations(): void
     {
         $this->runCommand('php artisan migrate');
+    }
+
+    private function runSeeders(): void
+    {
+        if ($this->confirm('Do you want to run the seeders?')) {
+            $this->runCommand('php artisan db:seed');
+        } else {
+            $this->logInfo("Skipping database seeding.");
+        }
     }
 
     private function installNodeDependencies(): void
