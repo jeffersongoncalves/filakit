@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file.
 
+## 3.2.2 - 2025-05-17
+
+### What's Changed
+
+* build(deps): bump the actions-deps group with 3 updates by @dependabot in https://github.com/jeffersongoncalves/filakit/pull/15
+* build(deps-dev): bump vite from 6.3.4 to 6.3.5 in the actions-deps group by @dependabot in https://github.com/jeffersongoncalves/filakit/pull/16
+* build(deps): bump dependabot/fetch-metadata from 2.3.0 to 2.4.0 in the actions-deps group by @dependabot in https://github.com/jeffersongoncalves/filakit/pull/17
+* build(deps): bump the actions-deps group with 2 updates by @dependabot in https://github.com/jeffersongoncalves/filakit/pull/18
+* feat(install): add automated install script by @andrefelipe18 in https://github.com/jeffersongoncalves/filakit/pull/19
+
+### New Contributors
+
+* @andrefelipe18 made their first contribution in https://github.com/jeffersongoncalves/filakit/pull/19
+
+**Full Changelog**: https://github.com/jeffersongoncalves/filakit/compare/3.2.1...3.2.2
+
 ## 3.2.1 - 2025-05-05
 
 ### What's Changed
