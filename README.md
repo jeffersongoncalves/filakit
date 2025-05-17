@@ -49,6 +49,7 @@ This command automates the installation process by:
 - Setting up the database
 - Running migrations
 - Installing Node.js dependencies
+- Building assets
 - Configuring Herd (if used)
 
 ### Manual Installation

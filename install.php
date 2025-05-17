@@ -34,6 +34,7 @@ class LaravelInstaller
         $this->runMigrations();
         $this->runSeeders();
         $this->installNodeDependencies();
+        $this->runBuildAssets();
 
         // Configure Herd if used
         $this->configureHerd();
@@ -114,6 +115,15 @@ class LaravelInstaller
             $this->runCommand("{$this->packageManager} install");
         } else {
             $this->logInfo("Node modules already installed. Skipping {$this->packageManager} install.");
+        }
+    }
+
+    private function runBuildAssets(): void
+    {
+        if (is_dir('node_modules')) {
+            $this->runCommand("{$this->packageManager} run build");
+        } else {
+            $this->logInfo("Node modules is not installed. Skipping {$this->packageManager} run build.");
         }
     }
 
