@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## 3.2.3 - 2025-05-19
+
+### What's Changed
+
+* build(deps): bump filament/filament from 3.3.14 to 3.3.15 in the actions-deps group by @dependabot in https://github.com/jeffersongoncalves/filakit/pull/20
+
+**Full Changelog**: https://github.com/jeffersongoncalves/filakit/compare/3.2.2...3.2.3
+
 ## 3.2.2 - 2025-05-17
 
 ### What's Changed
