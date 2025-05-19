@@ -2,6 +2,7 @@
 
 namespace App\Filament\Resources;
 
+use App\Filament\Infolists\AdditionalInformation;
 use App\Filament\Resources\UserResource\Pages;
 use App\Models\User;
 use Filament\Forms;
@@ -102,15 +103,10 @@ class UserResource extends Resource
                             ->copyMessage('Email copiado com sucesso!')
                             ->copyMessageDuration(1500),
                     ]),
-                Infolists\Components\Section::make('INFORMAÇÕES ADICIONAIS')
-                    ->description('Informações da data de cadastro/alteração e referência.')
-                    ->columns()
-                    ->schema([
-                        Infolists\Components\TextEntry::make('created_at')
-                            ->dateTime(),
-                        Infolists\Components\TextEntry::make('updated_at')
-                            ->dateTime(),
-                    ]),
+                AdditionalInformation::make([
+                    'created_at',
+                    'updated_at',
+                ]),
             ]);
     }
 
