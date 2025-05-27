@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## 3.2.5 - 2025-05-27
+
+### What's Changed
+
+* build(deps): bump the actions-deps group with 2 updates by @dependabot in https://github.com/jeffersongoncalves/filakit/pull/21
+
+**Full Changelog**: https://github.com/jeffersongoncalves/filakit/compare/3.2.4...3.2.5
+
 ## 3.2.4 - 2025-05-20
 
 **Full Changelog**: https://github.com/jeffersongoncalves/filakit/compare/3.2.3...3.2.4
