@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## 3.3.29 - 2025-06-26
+
+### What's Changed
+
+* build(deps): bump the actions-deps group with 3 updates by @dependabot in https://github.com/jeffersongoncalves/filakit/pull/22
+* build(deps): bump the actions-deps group with 3 updates by @dependabot in https://github.com/jeffersongoncalves/filakit/pull/23
+* build(deps): bump the actions-deps group with 4 updates by @dependabot in https://github.com/jeffersongoncalves/filakit/pull/24
+* build(deps): bump stefanzweifel/git-auto-commit-action from 5 to 6 in the actions-deps group by @dependabot in https://github.com/jeffersongoncalves/filakit/pull/25
+* build(deps): bump the actions-deps group with 3 updates by @dependabot in https://github.com/jeffersongoncalves/filakit/pull/26
+
+**Full Changelog**: https://github.com/jeffersongoncalves/filakit/compare/3.2.5...3.3.29
+
 ## 3.2.5 - 2025-05-27
 
 ### What's Changed
