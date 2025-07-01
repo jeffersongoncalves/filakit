@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
+## 3.3.30 - 2025-07-01
+
+### What's Changed
+
+* build(deps-dev): bump vite from 6.3.5 to 7.0.0 in the actions-deps group by @dependabot in https://github.com/jeffersongoncalves/filakit/pull/27
+* Revert "build(deps-dev): bump vite from 6.3.5 to 7.0.0 in the actions-deps group" by @jeffersongoncalves in https://github.com/jeffersongoncalves/filakit/pull/28
+
+### New Contributors
+
+* @jeffersongoncalves made their first contribution in https://github.com/jeffersongoncalves/filakit/pull/28
+
+**Full Changelog**: https://github.com/jeffersongoncalves/filakit/compare/3.3.29...3.3.30
+
 ## 3.3.29 - 2025-06-26
 
 ### What's Changed
