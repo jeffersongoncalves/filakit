@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file.
 
+## 3.3.31 - 2025-07-08
+
+### What's Changed
+
+* chore: Configure Renovate by @renovate in https://github.com/jeffersongoncalves/filakit/pull/29
+* chore(deps): update dependency laravel/sail to v1.43.1 by @renovate in https://github.com/jeffersongoncalves/filakit/pull/31
+* chore(deps): update dependency laravel/pail to v1.2.3 by @renovate in https://github.com/jeffersongoncalves/filakit/pull/30
+* chore(deps): update dependency larastan/larastan to v3.5.0 by @renovate in https://github.com/jeffersongoncalves/filakit/pull/34
+* chore(deps): update dependency nunomaduro/collision to v8.8.2 by @renovate in https://github.com/jeffersongoncalves/filakit/pull/33
+* chore(deps): update dependency laravel/pint to v1.23.0 by @renovate in https://github.com/jeffersongoncalves/filakit/pull/35
+* fix(deps): update dependency laravel/framework to v12.20.0 by @renovate in https://github.com/jeffersongoncalves/filakit/pull/40
+
+### New Contributors
+
+* @renovate made their first contribution in https://github.com/jeffersongoncalves/filakit/pull/29
+
+**Full Changelog**: https://github.com/jeffersongoncalves/filakit/compare/3.3.30...3.3.31
+
 ## 3.3.30 - 2025-07-01
 
 ### What's Changed
