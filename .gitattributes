@@ -16,4 +16,3 @@ CHANGELOG.md export-ignore
 README.md export-ignore
 LICENSE.md export-ignore
 pnpm-lock.yaml export-ignore
-renovate.json export-ignore
