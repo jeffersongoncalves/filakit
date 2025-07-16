@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file.
 
+## 3.3.32 - 2025-07-16
+
+### What's Changed
+
+* Delete .github/FUNDING.yml by @jeffersongoncalves in https://github.com/jeffersongoncalves/filakit/pull/41
+* Update .gitignore by @jeffersongoncalves in https://github.com/jeffersongoncalves/filakit/pull/42
+* Update .gitattributes by @jeffersongoncalves in https://github.com/jeffersongoncalves/filakit/pull/43
+* Delete .rnd by @jeffersongoncalves in https://github.com/jeffersongoncalves/filakit/pull/44
+* build(deps-dev): bump vite from 6.3.5 to 7.0.2 in the actions-deps group by @dependabot[bot] in https://github.com/jeffersongoncalves/filakit/pull/39
+* build(deps-dev): bump laravel-vite-plugin from 1.3.0 to 2.0.0 in the actions-deps group across 1 directory by @dependabot[bot] in https://github.com/jeffersongoncalves/filakit/pull/45
+* Update .gitattributes by @jeffersongoncalves in https://github.com/jeffersongoncalves/filakit/pull/46
+* Update FilamentServiceProvider.php by @jeffersongoncalves in https://github.com/jeffersongoncalves/filakit/pull/47
+
+**Full Changelog**: https://github.com/jeffersongoncalves/filakit/compare/3.3.31...3.3.32
+
 ## 3.3.31 - 2025-07-08
 
 ### What's Changed
