@@ -181,11 +181,6 @@ class FilamentServiceProvider extends ServiceProvider
             return $column->extraImgAttributes(['loading' => 'lazy']);
         });
 
-        Tables\Columns\TextColumn::configureUsing(function (Tables\Columns\TextColumn $column) {
-            return $column->limit(50)
-                ->wrap();
-        });
-
         Tables\Actions\Action::configureUsing(function (Tables\Actions\Action $action) {
             return $action->modalWidth(MaxWidth::Medium)
                 ->closeModalByClickingAway(false);
