@@ -2,6 +2,7 @@
 
 namespace App\Providers\Filament;
 
+use AchyutN\FilamentLogViewer\FilamentLogViewer;
 use App\Filament\Pages\Auth\Login;
 use Filament\Enums\ThemeMode;
 use Filament\Http\Middleware\Authenticate;
@@ -67,7 +68,8 @@ class AdminPanelProvider extends PanelProvider
                 __('Management'),
             ])
             ->plugins([
-                //
+                FilamentLogViewer::make()
+                    ->navigationGroup('Settings'),
             ])
             ->unsavedChangesAlerts()
             ->passwordReset()
