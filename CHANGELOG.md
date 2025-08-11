@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## 3.3.35 - 2025-08-04
+
+### What's Changed
+
+* build(deps): Log Viewer package added by @achyutkneupane in https://github.com/jeffersongoncalves/filakit/pull/55
+
+### New Contributors
+
+* @achyutkneupane made their first contribution in https://github.com/jeffersongoncalves/filakit/pull/55
+
+**Full Changelog**: https://github.com/jeffersongoncalves/filakit/compare/3.3.34...3.3.35
+
 ## 3.3.34 - 2025-07-29
 
 ### What's Changed
