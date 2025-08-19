@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## 3.3.37 - 2025-08-18
+
+**Full Changelog**: https://github.com/jeffersongoncalves/filakit/compare/3.3.36...3.3.37
+
 ## 3.3.36 - 2025-08-12
 
 ### What's Changed
