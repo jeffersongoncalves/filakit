@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## 3.3.36 - 2025-08-12
+
+### What's Changed
+
+* build(deps): bump the actions-deps group with 2 updates by @dependabot[bot] in https://github.com/jeffersongoncalves/filakit/pull/56
+* build(deps): bump laravel/framework from 12.21.0 to 12.22.1 in the actions-deps group by @dependabot[bot] in https://github.com/jeffersongoncalves/filakit/pull/58
+* build(deps): bump actions/checkout from 4 to 5 in the actions-deps group by @dependabot[bot] in https://github.com/jeffersongoncalves/filakit/pull/59
+
+**Full Changelog**: https://github.com/jeffersongoncalves/filakit/compare/3.3.35...3.3.36
+
 ## 3.3.35 - 2025-08-04
 
 ### What's Changed
