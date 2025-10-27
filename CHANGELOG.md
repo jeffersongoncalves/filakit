@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
+## 3.3.43 - 2025-10-27
+
+### What's Changed
+
+* build(deps-dev): bump the npm_and_yarn group across 1 directory with 2 updates by @dependabot[bot] in https://github.com/jeffersongoncalves/filakit/pull/60
+* build(deps-dev): bump the actions-deps group with 5 updates by @dependabot[bot] in https://github.com/jeffersongoncalves/filakit/pull/61
+* build(deps): bump stefanzweifel/git-auto-commit-action from 6 to 7 in the actions-deps group by @dependabot[bot] in https://github.com/jeffersongoncalves/filakit/pull/62
+* build(deps-dev): bump vite from 7.1.9 to 7.1.10 in the actions-deps group by @dependabot[bot] in https://github.com/jeffersongoncalves/filakit/pull/63
+* build(deps-dev): bump vite from 7.1.10 to 7.1.11 in the actions-deps group by @dependabot[bot] in https://github.com/jeffersongoncalves/filakit/pull/64
+* build(deps-dev): bump vite from 7.1.11 to 7.1.12 in the actions-deps group by @dependabot[bot] in https://github.com/jeffersongoncalves/filakit/pull/65
+
+**Full Changelog**: https://github.com/jeffersongoncalves/filakit/compare/3.3.37...3.3.43
+
 ## 3.3.37 - 2025-08-18
 
 **Full Changelog**: https://github.com/jeffersongoncalves/filakit/compare/3.3.36...3.3.37
