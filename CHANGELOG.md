@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## 3.3.45 - 2025-11-11
+
+### What's Changed
+
+* build(deps-dev): bump axios from 1.12.2 to 1.13.0 in the actions-deps group by @dependabot[bot] in https://github.com/jeffersongoncalves/filakit/pull/66
+* build(deps-dev): bump axios from 1.13.0 to 1.13.1 in the actions-deps group by @dependabot[bot] in https://github.com/jeffersongoncalves/filakit/pull/67
+* build(deps-dev): bump the actions-deps group with 2 updates by @dependabot[bot] in https://github.com/jeffersongoncalves/filakit/pull/68
+* build(deps-dev): bump vite from 7.2.0 to 7.2.1 in the actions-deps group by @dependabot[bot] in https://github.com/jeffersongoncalves/filakit/pull/69
+* build(deps-dev): bump vite from 7.2.1 to 7.2.2 in the actions-deps group by @dependabot[bot] in https://github.com/jeffersongoncalves/filakit/pull/70
+
+**Full Changelog**: https://github.com/jeffersongoncalves/filakit/compare/3.3.43...3.3.45
+
 ## 3.3.43 - 2025-10-27
 
 ### What's Changed
