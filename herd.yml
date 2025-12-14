@@ -1,10 +1,7 @@
 name: filakit
-php: '8.3'
+php: '8.2'
 secured: true
 aliases: {  }
-services:
-    mysql:
-        version: 8.0.36
-        port: '${DB_PORT}'
+services: {}
 integrations:
     forge: {  }
