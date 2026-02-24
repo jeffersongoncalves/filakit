@@ -2,16 +2,16 @@
     "$schema": "https://getcomposer.org/schema.json",
     "name": "jeffersongoncalves/filakit",
     "type": "project",
-    "description": "The skeleton application for the FilamentPHP.",
+    "description": "FilaKit starter kit built on Laravel 12.x and Filament 3.x with a ready-to-use multi-panel structure.",
     "keywords": [
         "laravel-starter-kit",
         "starter-kit",
         "filament-starter-kit",
         "laravel",
-        "framework",
         "filament",
-        "kit",
-        "start-kit"
+        "filament-v3",
+        "livewire",
+        "tailwindcss"
     ],
     "license": "MIT",
     "require": {
