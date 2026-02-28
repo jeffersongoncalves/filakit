@@ -20,6 +20,7 @@
         "dutchcodingcompany/filament-developer-logins": "^1.10",
         "filament/filament": "^3.3",
         "jeffersongoncalves/filament-logo": "^1.0",
+        "joaopaulolndev/filament-edit-profile": "*",
         "laravel/framework": "^12.0",
         "laravel/tinker": "^2.10.1",
         "livewire/livewire": "^3.6"
