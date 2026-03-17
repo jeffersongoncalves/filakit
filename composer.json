@@ -22,7 +22,7 @@
         "jeffersongoncalves/filament-logo": "^1.0",
         "joaopaulolndev/filament-edit-profile": "*",
         "laravel/framework": "^12.0",
-        "laravel/tinker": "^2.10.1",
+        "laravel/tinker": "^3.0.0",
         "livewire/livewire": "^3.6"
     },
     "require-dev": {
