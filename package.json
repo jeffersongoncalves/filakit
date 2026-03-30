@@ -9,7 +9,10 @@
     "pnpm": {
         "overrides": {
             "rollup": ">=4.59.0",
-            "yaml": ">=2.8.3"
+            "yaml": ">=2.8.3",
+            "minimatch": ">=9.0.6",
+            "glob": ">=11.0.0",
+            "brace-expansion": ">=2.0.3"
         }
     },
     "devDependencies": {
