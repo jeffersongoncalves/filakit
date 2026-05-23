@@ -1,0 +1,5 @@
+{
+  "php": "8.4",
+  "domain": "filakit.test",
+  "database": "filakit"
+}
