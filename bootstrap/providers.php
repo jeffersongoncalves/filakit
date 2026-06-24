@@ -1,6 +1,9 @@
 <?php
 
+use App\Providers\AppServiceProvider;
+use App\Providers\FilamentServiceProvider;
+
 return [
-    App\Providers\FilamentServiceProvider::class,
-    App\Providers\AppServiceProvider::class,
+    FilamentServiceProvider::class,
+    AppServiceProvider::class,
 ];
