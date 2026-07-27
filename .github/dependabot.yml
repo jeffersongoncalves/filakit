@@ -19,6 +19,7 @@ updates:
     directory: "/"
     ignore:
       - dependency-name: "tailwindcss"
+        update-types: ["version-update:semver-major"]
     schedule:
       interval: "weekly"
     groups:
