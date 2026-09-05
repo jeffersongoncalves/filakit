@@ -6,6 +6,8 @@
 
 # FilaKit Start Kit Filament 3.x and Laravel 12.x
 
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-support-FFDD00?style=flat-square&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/jeffersongoncalves)
+
 ## About FilaKit
 
 FilaKit is a robust starter kit built on Laravel 12.x and Filament 3.x, designed to accelerate the development of modern
