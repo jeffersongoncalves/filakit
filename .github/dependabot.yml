@@ -1,6 +1,6 @@
 # Standard Dependabot config (dependabot-std).
 # Weekly, grouped, 7-day cooldown (time to catch a malicious release).
-# Framework majors are ignored so no branch ever gets a cross-major bump: main = Filament 3, main = Livewire 3.
+# Framework majors are ignored so no branch ever gets a cross-major bump: main = Filament 3.
 # Explicit `versions` ranges, not `update-types`: without a composer.lock Dependabot skips update-types.
 
 version: 2
@@ -26,9 +26,6 @@ updates:
       default-days: 7
     ignore:
       - dependency-name: filament/*
-        versions:
-          - '>=4.0'
-      - dependency-name: livewire/*
         versions:
           - '>=4.0'
       - dependency-name: jeffersongoncalves/filament-additional-information
