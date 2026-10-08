@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "53a8c349fc2a300a0431fc7484fac128",
+    "content-hash": "831730b12beb30fc572bbb190a91aa57",
     "packages": [
         {
             "name": "achyutn/filament-log-viewer",
@@ -3100,16 +3100,16 @@
         },
         {
             "name": "joaopaulolndev/filament-edit-profile",
-            "version": "v1.0.46",
+            "version": "v1.0.48",
             "source": {
                 "type": "git",
                 "url": "https://github.com/joaopaulolndev/filament-edit-profile.git",
-                "reference": "5dd1846fd554e202ad797ccec51aef8f176ace8a"
+                "reference": "221d55be651d4365abd3905b2d1e42ab813f6221"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/joaopaulolndev/filament-edit-profile/zipball/5dd1846fd554e202ad797ccec51aef8f176ace8a",
-                "reference": "5dd1846fd554e202ad797ccec51aef8f176ace8a",
+                "url": "https://api.github.com/repos/joaopaulolndev/filament-edit-profile/zipball/221d55be651d4365abd3905b2d1e42ab813f6221",
+                "reference": "221d55be651d4365abd3905b2d1e42ab813f6221",
                 "shasum": ""
             },
             "require": {
@@ -3119,14 +3119,13 @@
                 "spatie/laravel-package-tools": "^1.15.0"
             },
             "require-dev": {
-                "laradumps/laradumps": "^3.1",
                 "larastan/larastan": "^3.9",
                 "laravel/pint": "^1.0",
                 "nunomaduro/collision": "^7.9|^8.6",
-                "orchestra/testbench": "^8.0|^9.0|^10.0",
-                "pestphp/pest": "^2.1|^3.4.7",
-                "pestphp/pest-plugin-arch": "^2.0|^3.0",
-                "pestphp/pest-plugin-laravel": "^2.0|^3.1.0"
+                "orchestra/testbench": "^8.0|^9.0|^10.0|^11.0",
+                "pestphp/pest": "^2.1|^3.4.7|^5.0",
+                "pestphp/pest-plugin-arch": "^2.0|^3.0|^5.0",
+                "pestphp/pest-plugin-laravel": "^2.0|^3.1.0|^5.0"
             },
             "type": "library",
             "extra": {
@@ -3173,7 +3172,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-02-27T23:02:14+00:00"
+            "time": "2026-09-17T18:59:17+00:00"
         },
         {
             "name": "kirschbaum-development/eloquent-power-joins",
