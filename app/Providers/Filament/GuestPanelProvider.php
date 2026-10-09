@@ -18,6 +18,7 @@ use Illuminate\Session\Middleware\StartSession;
 use Illuminate\Support\Facades\Vite;
 use Illuminate\View\Middleware\ShareErrorsFromSession;
 use JeffersonGoncalves\Filament\Pwa\FilamentPwaPlugin;
+use JeffersonGoncalves\SecurityHeaders\Middleware\SecurityHeaders;
 
 class GuestPanelProvider extends PanelProvider
 {
@@ -41,6 +42,7 @@ class GuestPanelProvider extends PanelProvider
             ->discoverWidgets(in: app_path('Filament/Guest/Widgets'), for: 'App\\Filament\\Guest\\Widgets')
             ->widgets([])
             ->middleware([
+                SecurityHeaders::class,
                 EncryptCookies::class,
                 AddQueuedCookiesToResponse::class,
                 StartSession::class,
